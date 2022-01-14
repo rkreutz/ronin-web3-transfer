@@ -40,6 +40,7 @@ async function init() {
   const sentTx = web3_write.eth.sendTransaction(tx);
   sentTx.on("receipt", receipt => {
     console.log(receipt)
+    console.log(abiDecoder.decodeLogs(receipt.logs))
   });
   sentTx.on("error", err => {
     console.error(err)

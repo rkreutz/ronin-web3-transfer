@@ -1,0 +1,16 @@
+{
+  "name": "ronin-transfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abi-decoder": "^2.4.0",
+    "dotenv": "^11.0.0",
+    "web3": "^1.6.1"
+  }
+}
